@@ -4,7 +4,6 @@ require_once("classes/User.class.php");
 require_once("classes/Cart.class.php");
 require_once("classes/Order.class.php");
 
-// Cadastrando produtos
 $p1 = new Product("Galaxy S23 Ultra", 4500, 10);
 $p2 = new Product("iPhone 16", 7500, 2);
 $p3 = new Product("Dell Inspiron 15", 3500, 3);
